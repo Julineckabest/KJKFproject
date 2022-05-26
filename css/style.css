@@ -1,0 +1,165 @@
+body {
+  background-color: white ;
+  font-family: 'Grape Nuts', cursive;
+
+}
+
+#wrapper {
+  width: 90%;
+  background-color: #d9e9f9;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding: 1em;
+}
+
+
+#header {
+  background-repeat: no-repeat;
+  height: 100px;
+  text-align: center;
+  font-family: 'Grape Nuts', cursive;
+  
+}
+
+.headerh1 {
+  font-size: 150px;
+  position: absolute;
+  margin-left: 20%;
+}
+
+.head-picture {
+  float: right;
+  padding-bottom: 10%;
+  width: 350px;
+  height: 161px;
+  
+}
+
+nav { 
+  margin-top: 15%;
+  width: 25%;
+  float: left;
+  
+}
+
+nav a {
+  background-color: #86A3C3;
+  color: rgb(0, 0, 0);
+  display: block;
+  float: left;
+  width: 90%;
+  font-weight: bold;
+  line-height: 2.4em;
+  margin-bottom: 0.4em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Grape Nuts', cursive;
+}
+
+main {
+  width: 75%;
+  float: right;
+}
+
+
+nav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+
+article {
+  width: 50%;
+  float: left;
+}
+
+figure {
+  width: 50%;
+  display: inline-block;
+}
+p {
+  margin-bottom: 1em;
+  font-family: 'Grape Nuts', cursive;
+  font-size: 25px;
+}
+.source {
+  font-size: 15px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+#footer {
+  background-color: #8a81b6;
+  clear: both;
+  text-align: center;
+}
+img {
+  width: 50%;
+}
+
+.python {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #86A3C3;
+  color: rgb(0, 0, 0);
+  display: block;
+  float: left;
+  width: 90%;
+  font-weight: bold;
+  line-height: 2.4em;
+  margin-bottom: 0.4em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Grape Nuts', cursive;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(253, 214, 214);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #7268A6;}
+
+.python-logo {
+  height: 180px;
+  width: 180px;
+}
